@@ -28,7 +28,7 @@ public class Task1{
 
     if(userguess<number){
        System.out.println("Congratulations! You guessed the correct number in"+attempts+"attempts");
-       score+= chance-attempts;
+       score+= chance-attempts+1;
        break;
     }
 
